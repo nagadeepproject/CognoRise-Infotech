@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa613fc0b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-----------header----------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src = "images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h3>Web Devolper </h3>
+                <h1>Hi, I'm <span>Satya </span><br> Naga Deep</h1><br>
+            </div>
+        </div>
+    </div>
+    <!--------end of header-------->
+
+    <!----------------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.jpg">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h4 class="timeline-text">Passionate web developer with a solid background in designing and implementing innovative web solutions. 
+                    Proficient in various programming languages, front-end and back-end technologies, and a keen eye for user experience.
+                    Eager to collaborate with industry experts, leverage cutting-edge technologies, and translate creative ideas into functional, user-friendly web applications. 
+                    Committed to staying abreast of industry trends, expanding skills, and contributing to the success of dynamic projects. Seeking opportunities to apply my expertise, learn from seasoned professionals, and make a meaningful impact in the ever-evolving field of web development.</h4>
+                    <div class="row">
+                        <div class="personal-info padd-15">
+                            <div class="row">
+                                <div class="info-item padd-15">
+                                    <p>Birthday : <span>4 july 2003 </span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Age : <span>20 </span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Email : <span>satyanagadeepg@gmail.com </span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Degree : <span>CSE-AI </span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Phone no : <span>7989677110 </span></p>
+                                </div> 
+                                <div class="info-item padd-15">
+                                    <p>City : <span>Chennai, India </span></p>
+                                </div>
+
+                                <div class="info-item padd-15">
+                                    <p>Freelnace : <span>Available </span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="buttons padd-15">
+                                    <a href="images/Resume.pdf" download class="btn">Download CV</a>
+                                    <a href="https:www.linkedin.com/in/satya-naga-deep-g-b5593122b" class="btn hire-me">Hire Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="row">
+                <div class="about-col-4">
+                    <div class="row">
+                        <div class="skills padd-15">
+                            <div class="row">
+                                <h3 class="title">Skills</h3>
+                                <div class="skill-item padd-15">
+                                    <h5>HTML</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 90%;"></div>
+                                        <div class="skill-percent">Experienced</div>
+                                    </div> 
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>CSS</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 90%;"></div>
+                                        <div class="skill-percent">Experienced</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>Java Script</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 90%;"></div>
+                                        <div class="skill-percent">Experienced</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>C</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 50%;"></div>
+                                        <div class="skill-percent">Intermediate</div>
+                                    </div>
+                                </div>
+                            
+                                <div class="skill-item padd-15">
+                                    <h5>Python</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 50%;"></div>
+                                        <div class="skill-percent">Intermediate</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>Data Structures</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 50%;"></div>
+                                        <div class="skill-percent">Intermediate</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>Java</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 35%;"></div>
+                                        <div class="skill-percent">Begginer</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="education padd-15">
+                            <h3 class="title">Education</h3>
+                            <div class="row">
+                                <div class="timeline-box padd-15">
+                                    <div class="timeline shadow-dark">
+                                        <!--- ===== timeline item ===== -->
+                                        <div class="timeline-item">
+                                            <div class="circle-dot">   
+                                            </div>
+                                            <h4 class="timeline-title">GRADUATION IN COMPUTER SCIENCE AND ENGINEERING</h4>
+                                            <p class="timeline-text">2021-2025</p>
+                                            <h4 class="timeline-text">Sathyabama Institute of Science and Technology</h4>
+                                            <h4 class="timeline-text">Chennai, Tamil Nadu, 600119, India</h4>
+                                            <h4 class="timeline-text">BE - CSE Specialisation in Artificial Intelligence</h4>
+                                            <h4 class="timeline-text">Secured CGPA : 8.5 </h4>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="circle-dot">   
+                                            </div>
+                                            <h4 class="timeline-title">SECONDARY EDUCATION</h4>
+                                            <p class="timeline-text">2019-2021</p>
+                                            <h4 class="timeline-text">Tirumala Junior College</h4>
+                                            <h4 class="timeline-text">Rajahmundry, Andhra Pradesh, 533101, India </h4>
+                                            <h4 class="timeline-text">MPC</h4>
+                                            <h4 class="timeline-text">SSC (CLASS XII) : 93.4 % </h4>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="circle-dot">   
+                                            </div>
+                                            <h4 class="timeline-title">SCHOOLING</h4>
+                                            <p class="timeline-text">2008-2019</p>
+                                            <h4 class="timeline-text">Little Paradise [E.M] High School</h4>
+                                            <h4 class="timeline-text">Rajahmundry, Andhra Pradesh, 533101, India </h4>
+                                            <h4 class="timeline-text">SSC (CLASS X) CGPA : 9.8 </h4>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience padd-15">
+                            <h3 class="title">Experience</h3>
+                            <div class="row">
+                                <div class="timeline-box padd-15">
+                                    <div class="timeline shadow-dark">
+                                        <!--- ===== timeline item ===== -->
+                                        <div class="timeline-item">
+                                            <div class="circle-dot">   
+                                            </div>
+                                            <h4 class="timeline-title">HCL INTERNSHIP</h4>
+                                            <p class="timeline-text">07/2023 - 10/2023</p>
+                                            <h4 class="timeline-text">Project Based Internship</h4>
+                                            <h4 class="timeline-text">Chennai, Tamil Nadu, 600119, India</h4>
+                                            
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="circle-dot">   
+                                            </div>
+                                            <h4 class="timeline-title">COGNORISE INFOTECH</h4>
+                                            <p class="timeline-text">12/2023 - 01/2024</p>
+                                            <h4 class="timeline-text">Web Devolpment Internship</h4>
+                                            <h4 class="timeline-text">Chennai, Tamil Nadu, 600119, India</h4>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="circle-dot">   
+                                            </div>
+                                            <h4 class="timeline-title">BHARAT INTERNSHIP</h4>
+                                            <p class="timeline-text">01/2024 - 02/2024</p>
+                                            <h4 class="timeline-text">Web Devolpment Internship</h4>
+                                            <h4 class="timeline-text">Chennai, Tamil Nadu, 600119, India</h4>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------end of about----------->
+
+    <!-------------services---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the art and process of creating visually appealing and functional websites.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i> 
+                    <h2>Machine Learning</h2>
+                    <p>Machine learning is a field of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Data Scientist</h2>
+                    <p>Data science is the interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract insights and knowledge from structured and unstructured data.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-----------end of services---------->
+
+    <!-------------portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/resume.jpg">
+                    <div class="layer">
+                        <h3>Resume Builder</h3>
+                        <p>A Resume Builder is an online tool that helps individuals create and format professional resumes efficiently.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio.jpg">
+                    <div class="layer">
+                        <h3>Web Portfolio</h3>
+                        <p>A Web Portfolio is a curated collection of an individual's or a company's work, skills, and achievements, presented online to showcase their expertise and capabilities.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/todolist.jpg">
+                    <div class="layer">
+                        <h3>To-Do List</h3>
+                        <p>A To-do list is a organized record of tasks or activities that need to be completed, typically used to improve productivity and time management.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/travel.jpg">
+                    <div class="layer">
+                        <h3>Travel Booking System</h3>
+                        <p>A Travel Booking system is an online platform that facilitates the reservation and management of travel-related services such as flights, hotels, and car rentals.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn1">See More</a>
+        </div>
+    </div>
+    <!--------end of portofolio----------->
+
+    <!-------------contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>satyanagadeepg@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7989677110</p>
+                    <div class="social-icons">
+                        <a href="https:www.linkedin.com/in/satya-naga-deep-g-b5593122b"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/nagadeepproject"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/one_life_one_friend_28_04_?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Resume.pdf" download class="btn1 btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="Submit" class="btn1 btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="design4">
+            <p>Designed by <span>SATYA NAGA DEEP</span></p>
+        </div>
+    </div>
+    <!------------end of contact----------->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyifY2YdEqWzcq-_Jut7Xv7a-B6MypzShsZL8-9ugmtx54sgAJLv9esiFa89Ayq_Lx-/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Messsage sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset() 
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
